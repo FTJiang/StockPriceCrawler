@@ -2,10 +2,10 @@
 Master Student majored in Computer Engineering, seeking summer intern for 2017.
 If you want to hire me or any questions, welcome to contact me by FJgithub@gmail.com
 
-HOW IT WORKS  
+## HOW IT WORKS  
 The script work by scraping the one day information of all the stocks on bloomberg by multi-processes technique and extract price and time by json model. A producer-consumer model is used to design a data insertion task manager and a connection pool is also implemented for multi-threads scenario. Randomized user-agent and proxies are used.
 
-INSTALLATION  
+## INSTALLATION  
 pip and virtualenv
 ```cmd
 $ sudo apt-get install python-pip python-dev build-essential 
@@ -44,5 +44,5 @@ beautifulsoup
 $ pip install beatifulsoup
 ```
 
-USAGE
+## USAGE
 You should change the username and password at first in scrapy.py line 30. This project is based on python 2.7.4, you can run command line: ```
